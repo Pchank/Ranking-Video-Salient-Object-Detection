@@ -62,7 +62,7 @@ We have established a ranking saliency object dataset，called RVSOD (Ranking Vi
 ### Labeling process:
 **1． Manually mark the salient objects according to the position of the eye fixation points．**
 
-Manually mark the objects O1, O2, ... On in each frame of the image with eye fixation points．(such as the ones shown in Fig. 1(①))
+Manually mark the objects O<sub>1</sub>, O<sub>2</sub>, ... O<sub>n</sub> in each frame of the image with eye fixation points．(such as the ones shown in Fig. 1(①))
 
 **2． Assign different gray values to the salient objects according to the number of eye fixation points．**
 
@@ -73,10 +73,10 @@ According to the eye fixation points annotation files， the number of eye fixat
 
 **----------------------------------------------------Figure 2.Algorithm---------------------------------------------------**
 
-
+### Dataset display
 ![Image text](https://github.com/yxy452710960/RVSOD/blob/master/img/Diving-Side_001.gif)
 ![Image text](https://github.com/yxy452710960/RVSOD/blob/master/img/actioncliptest00001.gif)
 ![Image text](https://github.com/yxy452710960/RVSOD/blob/master/img/actioncliptrain00426.gif)
 ![Image text](https://github.com/yxy452710960/RVSOD/blob/master/img/actioncliptrain00728.gif)
 
-**--------------------------------------------------Figure 3.DatasetDisplay------------------------------------------------**
+# Statistics of the proposed model
