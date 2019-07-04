@@ -85,3 +85,6 @@ The overall architecture of SVSNet.Our model is built on a two-branch FCN archit
 
 ![Image text](https://github.com/yxy452710960/Ranking-Video-Salient-Object-Detection/blob/master/Result.jpg)
 **--------------------------------Qualitative comparisons of diffenrent SOD methods on RVSOD.--------------------------------**
+
+![Image text](https://github.com/yxy452710960/Ranking-Video-Salient-Object-Detection/blob/master/RSM.jpg)
+**--------------------------------Evaluation for ranking saliency detection.--------------------------------**
