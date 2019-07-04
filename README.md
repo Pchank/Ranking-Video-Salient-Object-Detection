@@ -84,7 +84,9 @@ According to the eye fixation points annotation files， the number of eye fixat
 The overall architecture of SVSNet.Our model is built on a two-branch FCN architecture with ResNet-50 as a pretrained model. At a high level, we feed an input video sequence \{I<sub>t</sub>\}<sub>t=1</sub><sup>T</sup> with T frames into ResNet-50 continuously to capture multi-level spatial information about every frame's saliency regions. Note that we only keep the first four blocks of the ResNet-50. Then, these features from the ResNet-50 are fed into the two branches--- fixation predicting branch and salient object detection branch, respectively.Finally,the outputs of the two branches are sent into the ranking saliency module(RSM) to generate the ranking saliency map.
 
 ![Image text](https://github.com/yxy452710960/Ranking-Video-Salient-Object-Detection/blob/master/Result.jpg)
-**--------------------------------Qualitative comparisons of diffenrent SOD methods on RVSOD.--------------------------------**
+**-------------------------------Qualitative comparisons of diffenrent SOD methods on RVSOD.--------------------------------**
 
 ![Image text](https://github.com/yxy452710960/Ranking-Video-Salient-Object-Detection/blob/master/RSM.jpg)
 **-----------------------------------------Evaluation for ranking saliency detection.-----------------------------------------**
+
+Our code is coming soon.
