@@ -6,13 +6,15 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\* Corresponding author: Yanhong Han
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\{xinyuyan, wzheng,yahonghan,sunmeijun\}@tju.edu.cn
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\{xinyuyan, wzheng,yahong,sunmeijun\}@tju.edu.cn
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(王征：天津大学机器学习与数据挖掘实验室)
 
 # Abstract
 Video salient object detection has been attracting more and more research interests recently. However, the definition of salient objects in videos has been controversial all the time, which has become a critical bottleneck in video salient object detection. Specifically, the sequential information contained in videos results in a fact that objects have a relative saliency ranking between each other rather than specific saliency. This implies that simply distinguishing objects into salient or not-salient as usual could not represent the information about saliency comprehensively. To address this issue, 1) in this paper we propose a completely new definition for the salient objects in videos---ranking salient objects, which considers relative saliency ranking assisted with eye fixation points. 2) Based on this definition,a ranking video salient object dataset(RVSOD) is built. 3) Leveraging our RVSOD, a novel neural network called Synthesized Video Saliency Network (SVSNet) is constructed to detect both traditional salient objects and human eye movements in videos. Finally, a ranking saliency module (RSM) takes the results of SVSNet as input to generate the ranking saliency maps. We hope our approach will serve as a baseline and lead to a conceptually new research in the field of video saliency.
 
 # Paper
-Ranking Video Salient Object Detection, Zheng Wang, Xinyu Yan, Yahong Han, Meijun Sun. ACM Multimedia 2019 Nice,[ [project page](https://github.com/yxy452710960/Ranking-Video-Salient-Object-Detection/) | bib | official version | pdf ][poster | Results | RVSOD Dataset  ([Baidu](https://pan.baidu.com/s/1F214E5ujgyytcPBwqt2XyA) | [Google](https://drive.google.com/open?id=1aG1JsD4eXWrJYvpWSYfI4tUPXDy9cFeS))]
+Ranking Video Salient Object Detection, Zheng Wang, Xinyu Yan, Yahong Han, Meijun Sun. ACM Multimedia 2019 Nice,[ [project page](https://github.com/yxy452710960/Ranking-Video-Salient-Object-Detection/) | bib | official version | code | pdf ][poster | Results | RVSOD Dataset  ([Baidu](https://pan.baidu.com/s/1F214E5ujgyytcPBwqt2XyA) | [Google](https://drive.google.com/open?id=1aG1JsD4eXWrJYvpWSYfI4tUPXDy9cFeS))]
 
 # Statistics of the proposed RVSOD
 ### Files:
@@ -89,4 +91,3 @@ The overall architecture of SVSNet.Our model is built on a two-branch FCN archit
 ![Image text](https://github.com/yxy452710960/Ranking-Video-Salient-Object-Detection/blob/master/RSM.jpg)
 **-----------------------------------------Evaluation for ranking saliency detection.-----------------------------------------**
 
-Our code is coming soon.
